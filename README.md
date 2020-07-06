@@ -18,6 +18,7 @@ Exemplo
 R$ 5,32
 ```
 
+
 - `DolarToFloat`
 
 O método `DolarToFloat` retorna o valor do dólar comercial como uma variável do tipo float com duas casas decimais, que pode ser utilizada em operações matemáticas.
