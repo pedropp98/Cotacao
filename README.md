@@ -1,17 +1,21 @@
 # Cotação Dólar
 API que pega a cotação do dólar comercial na moeda brasileira em tempo real.
 
-## Como utilizar
-Para usar API cotação do dólar, primeiro instale os módulos necessários com
-` pip install -r requirements `.
+## Requerimentos
+Antes de utilizar as funções desse modúlo, certifique-se que seu environment tenha os módulos`lxml` e `requests` instalados. 
+Para isso, pode-se utilizar:
+```
+pip install -r requirements.txt
+```
 
+## Como utilizar
 Depois, importe `cotacao.py` e utilize os métodos
 ` import cotacao `
 
 ## Métodos
-- `getDolar`
+* `getDolar()`
 
-O método `getDolar` retorna uma string contendo o valor do dólar comercial em reais.
+O método `getDolar()` retorna uma string contendo o valor do dólar comercial em reais.
 
 Exemplo
 ```
@@ -21,9 +25,9 @@ R$ 5,32
 ```
 
 
-- `DolarToFloat`
+* `DolarToFloat()`
 
-O método `DolarToFloat` retorna o valor do dólar comercial como uma variável do tipo float com duas casas decimais, que pode ser utilizada em operações matemáticas.
+O método `DolarToFloat()` retorna o valor do dólar comercial como uma variável do tipo float com duas casas decimais, que pode ser utilizada em operações matemáticas.
 
 Exemplo
 ```
