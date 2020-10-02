@@ -2,8 +2,10 @@
 API que pega a cotação do dólar comercial na moeda brasileira em tempo real.
 
 ## Como utilizar
-Para usar API cotação do dólar, importe `cotacao.py` e utilize os métodos
+Para usar API cotação do dólar, primeiro instale os módulos necessários
+` pip install -r requirements `
 
+Depois, importe `cotacao.py` e utilize os métodos
 ` import cotacao `
 
 ## Métodos
